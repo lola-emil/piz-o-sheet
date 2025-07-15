@@ -1,0 +1,28 @@
+{
+  "name": "piece-of-sheet",
+  "version": "1.0.1",
+  "main": "./dist/index.js",
+  "repository": "git@github.com:lola-emil/piece-of-sheet.git",
+  "author": "Rens Saladaga <staleexam19@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "bin": {
+    "psheet": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "dev": "tsc -p . -w"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "nodemon": "^3.1.10",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "chalk": "4",
+    "commander": "^14.0.0",
+    "dotenv": "^17.2.0",
+    "googleapis": "^152.0.0",
+    "uuid": "^11.1.0"
+  }
+}
